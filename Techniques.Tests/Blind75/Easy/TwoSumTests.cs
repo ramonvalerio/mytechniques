@@ -1,7 +1,7 @@
-﻿using Techniques.Tests.Blind75;
+﻿using Techniques.Tests.Blind75.Easy;
 using Xunit;
 
-namespace MyTechniques.Tests.Blind75
+namespace MyTechniques.Tests.Blind75.Easy
 {
     public class TwoSumTests
     {

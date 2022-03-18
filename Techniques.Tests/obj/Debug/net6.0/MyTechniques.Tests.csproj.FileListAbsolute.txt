@@ -97,12 +97,12 @@ D:\repos\techniques\Techniques\Techniques.Tests\bin\Debug\net6.0\zh-Hant\Microso
 D:\repos\techniques\Techniques\Techniques.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\repos\techniques\Techniques\Techniques.Tests\obj\Debug\net6.0\MyTechniques.Tests.csproj.CopyComplete
 D:\repos\techniques\Techniques\Techniques.Tests\obj\Debug\net6.0\MyTechniques.Tests.genruntimeconfig.cache
-D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\testhost.exe
 D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\testhost.dll
+D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\testhost.exe
+D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
-D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\MyTechniques.Tests.deps.json
 D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\MyTechniques.Tests.runtimeconfig.json
 D:\repos\techniques\Techniques.Tests\bin\Debug\net6.0\MyTechniques.Tests.dll

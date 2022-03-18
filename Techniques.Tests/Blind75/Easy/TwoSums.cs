@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Techniques.Tests.Blind75
+namespace Techniques.Tests.Blind75.Easy
 {
     public class TwoSum
     {
