@@ -33,5 +33,20 @@ namespace MyTechniques.Tests.Blind75.Medium
             var expected = 6;
             Assert.Equal(expected, result);
         }
+
+        [Fact]
+        public void CountSubstrings_Case3()
+        {
+            // arrange
+            var instance = new PalindromicSubstrings();
+            var s = "Socorram-me subi no ônibus em Marrocos";
+
+            // act
+            var result = instance.CountSubstrings(s);
+
+            // assert
+            var expected = 43;
+            Assert.Equal(expected, result);
+        }
     }
 }
