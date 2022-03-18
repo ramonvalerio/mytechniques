@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Blind75\Medium\" />
     <Folder Include="Blind75\Hard\" />
     <Folder Include="Medium\" />
     <Folder Include="Hard\" />

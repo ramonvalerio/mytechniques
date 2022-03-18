@@ -28,15 +28,15 @@
             arr[pos] = num;
         }
 
-        public void Shift(int num, int pos, int[] arr)
-        {
-            if (pos < 0 || pos >= arr.Length)
-                return;
+        //public void Shift(int num, int pos, int[] arr)
+        //{
+        //    if (pos < 0 || pos >= arr.Length)
+        //        return;
 
-            var n = arr.Length;
+        //    var n = arr.Length;
 
-            for (int i = 0; i < pos; i++)
-                arr[(i + 1) % n] = arr[i];
-        }
+        //    for (int i = 0; i < pos; i++)
+        //        arr[(i + 1) % n] = arr[i];
+        //}
     }
 }
