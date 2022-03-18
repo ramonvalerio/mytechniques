@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\techniques\\Techniques\\Techniques.Tests\\MyTechniques.Tests.csproj": {}
+    "D:\\repos\\techniques\\Techniques.Tests\\MyTechniques.Tests.csproj": {}
   },
   "projects": {
-    "D:\\repos\\techniques\\Techniques\\Techniques.Tests\\MyTechniques.Tests.csproj": {
+    "D:\\repos\\techniques\\Techniques.Tests\\MyTechniques.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\techniques\\Techniques\\Techniques.Tests\\MyTechniques.Tests.csproj",
+        "projectUniqueName": "D:\\repos\\techniques\\Techniques.Tests\\MyTechniques.Tests.csproj",
         "projectName": "MyTechniques.Tests",
-        "projectPath": "D:\\repos\\techniques\\Techniques\\Techniques.Tests\\MyTechniques.Tests.csproj",
+        "projectPath": "D:\\repos\\techniques\\Techniques.Tests\\MyTechniques.Tests.csproj",
         "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\techniques\\Techniques\\Techniques.Tests\\obj\\",
+        "outputPath": "D:\\repos\\techniques\\Techniques.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ramon\\AppData\\Roaming\\NuGet\\NuGet.Config",
