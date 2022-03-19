@@ -57,10 +57,10 @@ namespace MyTechniques.Tests.Blind75.Easy.DynamicProgramming
             var n = 45;
 
             // act
-            var result = instance.GetCountClimbStairs(n);
+            var result = instance.GetCountClimbStairsUsingMemoization(n);
 
             // assert
-            var expected = 987;
+            var expected = 1836311903;
             Assert.Equal(expected, result);
         }
     }
