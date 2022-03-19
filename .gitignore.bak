@@ -12,7 +12,6 @@
 *.dll
 *.manifest
 *.cache
-./vs
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
