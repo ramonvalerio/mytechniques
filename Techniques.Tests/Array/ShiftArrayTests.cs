@@ -1,3 +1,4 @@
+using System;
 using Techniques.Tests.Array;
 using Xunit;
 
@@ -49,6 +50,28 @@ namespace Techniques.Tests
         [Fact]
         public void ShiftArrayToLeft()
         {
+            //var arr2 = new int[]{0, -1, -2, 2, 1}; int = 1;
+            //var arr2 = new int[] { 4, 1 }; int k = 3;
+            var arr2 = new int[] { 1, 5, 11, 7 }; int k = 4;
+            var n = arr2.Length;
+            var result = new int[n, 2];
+
+            for (var i = 0; i < n; i++)
+            {
+                var x = Math.Abs(arr2[i]);
+
+                for (var j = i; j < n; j++)
+                {
+                    var y = Math.Abs(arr2[j]);
+
+                    if (Math.Abs(x - y) == k)
+                    {
+                        result[i, 0] = x;
+                        result[i, 1] = y;
+                    }
+                }
+            }
+
             // arrange
             var instance = new ShiftArray();
             var num = 9;

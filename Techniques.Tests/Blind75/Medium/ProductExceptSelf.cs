@@ -4,11 +4,10 @@
     {
         public int[] GetProductExceptSelf(int[] nums)
         {
-
             var n = nums.Length;
             var left = new int[n];
             var right = new int[n];
-            var answer = new int[n];
+            var result = new int[n];
 
             left[0] = 1;
             right[n - 1] = 1;
@@ -20,9 +19,9 @@
                 right[i] = nums[i + 1] * right[i + 1];
 
             for (var i = 0; i < n; i++)
-                answer[i] = left[i] * right[i];
+                result[i] = left[i] * right[i];
 
-            return answer;
+            return result;
         }
     }
 }
