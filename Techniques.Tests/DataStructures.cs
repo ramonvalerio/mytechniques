@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace MyTechniques.Tests
 {
@@ -6,6 +7,9 @@ namespace MyTechniques.Tests
     {
         public DataStructures()
         {
+            var num = 32;
+            string binary = Convert.ToString(num, 2);
+
             // 1) Simple Array
             // Most efficient use of memory; use in cases where data size is fixed.
             var arr = new int[3];

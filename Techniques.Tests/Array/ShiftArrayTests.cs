@@ -1,4 +1,5 @@
 using System;
+using MyTechniques.Tests;
 using Techniques.Tests.Array;
 using Xunit;
 
@@ -34,6 +35,8 @@ namespace Techniques.Tests
         [Fact]
         public void ShiftArrayToRight_InvalidPosition()
         {
+            var x = new DataStructures();
+
             // arrange
             var instance = new ShiftArray();
             var num = 9;
