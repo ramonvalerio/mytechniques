@@ -22,7 +22,10 @@
 
   <ItemGroup>
     <Folder Include="Blind75\Hard\" />
-    <Folder Include="Medium\" />
+    <Folder Include="Codility\Lessons\Medium\" />
+    <Folder Include="Codility\Lessons\Hard\" />
+    <Folder Include="Codility\Exercises\" />
+    <Folder Include="LeetCode\Medium\" />
   </ItemGroup>
 
 </Project>

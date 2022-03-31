@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MyTechniques.Tests.Codility.Easy.Iterations
+namespace MyTechniques.Tests.Codility.Easy.Iterations.Lessons
 {
     public class BinaryGap
     {
@@ -29,8 +29,8 @@ namespace MyTechniques.Tests.Codility.Easy.Iterations
                         i = j;
                         break;
                     }
-                    else
-                        count++;
+
+                    count++;
                 }
             }
 
@@ -46,13 +46,28 @@ namespace MyTechniques.Tests.Codility.Easy.Iterations
         /// <returns>Longest Gap</returns>
         public int StackSolution(int N)
         {
-            // Problem: Binary Gap
-            // Approach: Brute-Force
             var input = Convert.ToString(N, 2);
-            var longestGap = 0;
-
             var stack = new Stack<int>();
+            stack.Push(input[0]);
 
+            var longestGap = 0;
+            var count = 0;
+
+            for (int i = 1; i < input.Length; i++)
+            {
+                var num = input[i];
+
+                if (num == '0')
+                {
+                    stack.Push(num);
+                    count++;
+                }
+                else if (num == '1' && stack.Peek() == '0')
+                {
+                    longestGap = Math.Max(longestGap, count);
+                    count = 0;
+                }
+            }
 
             return longestGap;
         }
